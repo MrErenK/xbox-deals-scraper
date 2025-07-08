@@ -1,0 +1,23 @@
+{
+  "name": "xbox-game-deals-scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper for Xbox Game Deals",
+  "type": "module",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "keywords": [
+    "web-scraper",
+    "xbox",
+    "game-deals"
+  ],
+  "author": "MrErenK",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "dotenv": "^17.1.0",
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,7 @@
+# nodejs
+/node_modules
+
+# custom
+all_games.json
+.env*
+index.generated.html
